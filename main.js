@@ -4,8 +4,9 @@ const posts = [
         date: "2026-06-22",
         excerpt: "记录个人知识。",
         tags: ["知识", "python", "linux"],
-        content: 
-        1. 服务器上传递文件夹或者压缩包给到对方， Linux 的用法:首先先跑python3 -m http.server 8000，而后通过hostname -I | awk'{print $1}'来获取IP；获取本机IP以后，就可以通过wget -c -r -np -nH --cut-dirs=1 --reject="index.html*""http://本机IP:8000/文件夹名/"
+        content: `
+1. 服务器上传递文件夹或者压缩包给到对方， Linux 的用法:首先先跑python3 -m http.server 8000，而后通过hostname -I | awk'{print $1}'来获取IP；获取本机IP以后，就可以通过wget -c -r -np -nH --cut-dirs=1 --reject="index.html*""http://本机IP:8000/文件夹名/"
+        `
 
     },
     {
